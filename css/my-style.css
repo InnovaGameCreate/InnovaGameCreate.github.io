@@ -1,17 +1,13 @@
 ﻿
 /*ナビゲーションバー*/
 .sitename {
-    margin: 15px 0 15px;
+    margin: -10px 0 15px;
 }
 
     .sitename a {
         font-size: 1.6em;
         color: inherit;
     }
-
-.title-logo { /*タイトルロゴ*/
-    margin: -12px 0 15px;
-}
 
 i {
     font-size: 1.3em;
@@ -44,6 +40,80 @@ i {
             border-right: 0;
             border-radius: 0 3px 3px 0;
         }
+
+/*メインビジュアル*/
+/* 画面幅が1170px以上になった場合に背景色をつける */
+.main-v {
+    position: relative;
+    background-color: #333;
+    margin-bottom: 30px;
+}
+ 
+/* メインcontainerを最大1170pxに指定 */
+/* Bootstrapのコンテンツエリアが最大1170pxのため */
+.main-container{
+    position:relative;
+    max-width: 1170px;
+    margin-left:auto;margin-right:auto;
+}
+ 
+img{
+    max-width: 100%;
+    height: auto;
+}
+ 
+.main-img{
+    display: block;
+}
+ 
+/* メインのテキスト装飾 */
+.main-info h2{
+  position: absolute;
+  background: rgba(33, 33, 44, 0.7);
+  color: #fff;
+  padding:10px 10px;
+}
+.main-info2 h2{
+  position: absolute;
+  background: rgba(33, 33, 44, 0.7);
+  color: #fff;
+  padding:10px 10px;
+}
+ 
+/*bootstrapのメディアクエリに合わせて、表示位置やフォントサイズを調整*/
+@media screen and (max-width: 767px) {
+    .main-info h2{
+      top: 10px;
+      right: 15px;
+      font-size: 1.3em;
+    }
+    .main-info2 h2{
+      top: 80px;
+      right: 5px;
+      font-size: 1.3em;
+    }
+}
+ 
+@media screen and (min-width: 768px) {
+    .main-info h2{
+      top: 40px;
+      right: 80px;
+    }
+    .main-info2 h2{
+      top: 120px;
+      right: 40px;
+    }
+}
+ 
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+ 
+}
+ 
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+ 
+}
 
 /*Twitterパネル*/
 .twitter-panel-body {
