@@ -8,7 +8,7 @@
 [Bootstrapテーマ Honoka][Honoka]
 
 ##Url
-https://innovagamecreate.github.io/
+http://innovagamecreate.github.io/
 
 
 [Honoka]: http://honokak.osaka/ "Bootstrapテーマ Honoka"
