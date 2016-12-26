@@ -41,6 +41,21 @@ i {
             border-radius: 0 3px 3px 0;
         }
 
+.navbar .navbar-left li{
+    padding-bottom:2px;
+}
+.navbar .navbar-left li a{
+    margin-top:10px;
+    margin-bottom:2px;
+}
+.navbar .navbar-right li{
+    padding-top:2px;
+}
+.navbar .navbar-right li a{
+    margin-top:2px;
+    margin-bottom:10px;
+}
+
 /*メインビジュアル*/
 /* 画面幅が1170px以上になった場合に背景色をつける */
 .main-v {
