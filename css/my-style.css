@@ -1,0 +1,16 @@
+﻿
+/*body*/
+body{
+    /*ヘッダーとかぶらないように*/
+    padding-top: 100px;
+}
+
+/*タイトルロゴ*/
+.site-title{
+    margin:-12px 0 15px;
+}
+
+/*Twitterパネル*/
+.twitter-panel-body{
+    padding:0;
+}
