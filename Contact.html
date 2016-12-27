@@ -44,7 +44,7 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-left">
-                    <li class="active">
+                    <li>
                         <a href="/">
                             <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
                             Home
@@ -55,7 +55,7 @@
                     <li><a href="/">活動</a></li>
                     <li><a href="/">制作作品</a></li>
                     <li><a href="/">新歓情報</a></li>
-                    <li><a href="/contact.html">お問い合わせ</a></li>
+                    <li class="active"><a href="/contact.html">お問い合わせ</a></li>
                     <li><a href="/">リンク</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
@@ -76,50 +76,41 @@
         </div>
     </div>
     <!--/Header-->
-    <!--メインビジュアル-->
-    <main class="main-v">
-        <div class="main-container">
-            <img src="img/main-v.png" alt="メインビジュアル" class="main-img" />
-            <div class="main-info">
-                <h2>徳島大学 創成学習開発センター</h2>
+    <div class="row container">
+        <div class="col-lg-5 col-lg-offset-1">
+            <div class="page-header">
+                <h1>メール</h1>
             </div>
-            <div class="main-info2">
-                <h2>ゲームクリエイトプロジェクト</h2>
+            <div class="well">
+                <form name="fm" class="form-horizontal">
+                    <div class="form-group">
+                        <input type="text" name="em1" value="tugameproject" disabled>
+                        @
+                        <input type="text" name="em2" value="gmail.com" disabled>
+                    </div>
+                    <div class="form-group">
+                        <script type="text/javascript">
+                            function ms() {
+                                location.href = "mailto:" + document.fm.em1.value + "@" + document.fm.em2.value;
+                            }
+                        </script>
+                        <div class="col-xs-2">
+                            <input class="btn btn-primary  " type="button" value="メーラで送信" onclick="ms();">
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
-    </main>
-    <!--/メインビジュアル-->
-
-    <div class="container">
-        <div class="row">
-
-            <!--NEWS-->
-            <div class="col-sm-8">
-                <div class="page-header">
-                    <h1>お知らせ</h1>
-                </div>
-                <div class="well">
-                    <h4>ホームページについて(2016/12/27)</h4>
-                    このホームページは現在製作途中です。
-                </div>
+        <div class="col-lg-5 col-lg-offset-1">
+            <div class="page-header">
+                <h1>Twitter</h1>
             </div>
-            <!--/NEWS-->
-            <!--Twitter-->
-            <div class="col-sm-4">
-                <div class="panel panel-info">
-                    <div class="panel-heading">
-                        <a href="https://twitter.com/tugameproject" target=”_blank”>
-                            Twitter
-                            <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
-                        </a>
-                    </div>
-                    <div class="panel-body twitter-panel-body">
-                        <a class="twitter-timeline" href="https://twitter.com/tugameproject" height="500" data-chrome="noheader nofooter noborders noscrollbar transparent" data-dnt="true">Tweets by tugameproject</a>
-                        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    </div>
-                </div>
+            <div class="well">
+                <a href="https://twitter.com/tugameproject" target=”_blank”>
+                    <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
+                    Twitter
+                </a>
             </div>
-            <!--/Twitter-->
         </div>
     </div>
 
