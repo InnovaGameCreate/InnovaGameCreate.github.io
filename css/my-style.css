@@ -134,20 +134,3 @@ img{
 .twitter-panel-body {
     padding: 0;
 }
-
-/*Youtube動画埋め込み用*/
-.youtube {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-}
- 
-.youtube iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
