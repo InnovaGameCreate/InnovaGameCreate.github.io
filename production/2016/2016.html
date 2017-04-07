@@ -14,12 +14,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="/js/bootstrap.min.js"></script>
-
     <!--自作cssの読み込み-->
     <link href="/css/my-style.css" rel="stylesheet" />
 </head>
 <body>
-
     <!--Header-->
     <!-- Site Name -->
     <div class="sitename">
@@ -31,7 +29,6 @@
             </div>
         </div>
     </div>
-
     <!-- Static navbar -->
     <div class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -86,14 +83,12 @@
         </div>
     </div>
     <!--/Header-->
-
     <div class="container">
         <div class="row">
             <div class="col-sm-10 col-sm-offset-1">
                 <ul class="nav nav-tabs nav-justified">
                     <li class="active"><a href="#tab1" data-toggle="tab">前期 (5)</a></li>
-                    <!--<li><a href="#tab2" data-toggle="tab">後期 (0)</a></li>-->
-                    <li class="disabled"><a>後期 (0)</a></li>
+                    <li><a href="#tab2" data-toggle="tab">後期 (1)</a></li>
                 </ul>
                 <div class="tab-content">
                     <!--前期-->
@@ -393,14 +388,78 @@
                     </div>
                     <!--/前期-->
                     <!--後期-->
-                    <div class="tab-pane" id="tab2">追加予定</div>
+                    <div class="tab-pane" id="tab2">
+                        <!--カラーボム-->
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h1 class="panel-title">カラーボム</h1>
+                            </div>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <img class="img-responsive img-rounded" src="/production/2016/img/color.png" />
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <p>このゲームは、テトリスやぷよぷよなどと同じジャンルであるパズルゲームです。</p>
+                                        <p>上から5色の色つきのブロック落ちてくるきます。</p>
+                                        <p>このブロックを同じ色同士で四つつなげると消えてポイントが加算され、目標ポイントを目指して、その時間を競うゲームです。</p>
+                                        <p>工夫した点は、連続でブロックを消す（連鎖する）とポイントが多くもらえる機能をつけたことと、木ブロックというおじゃまブロックや消すと一列分すべて消すブロックなど特殊ブロックを追加したことです。</p>
+                                        <hr />
+                                        <a class="btn btn-primary btn-block" href="https://drive.google.com/uc?id=0B4lWfNbxGjbBUWJtVzIyRG0wVFE">
+                                            <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                                            ダウンロード
+                                        </a>
+                                        <!--非公開
+                                        <a class="btn btn-success btn-block" href="https://github.com/InnovaGameCreate/Blockbreaker" target="_blank">
+                                            ソースコード
+                                            <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
+                                        </a>
+                                        -->
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <br />
+                                        <table class="table table-striped table-hover table-responsive table-condensed">
+                                            <tbody>
+                                                <tr>
+                                                    <td width="50%">ジャンル</td>
+                                                    <td>落ちゲー</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>プラットフォーム</td>
+                                                    <td>Windows</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>プレイ人数</td>
+                                                    <td>1人</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>開発言語</td>
+                                                    <td>C言語</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>開発ライブラリorツール</td>
+                                                    <td>DXライブラリ</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>開発期間</td>
+                                                    <td>4ヶ月</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/カラーボム-->
+                    </div>
                     <!--/後期-->
                 </div>
             </div>
         </div>
     </div>
     <hr />
-
     <!--Footer-->
     <footer style="background-color:gray">
         <div class="container">
