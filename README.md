@@ -1,13 +1,13 @@
 ﻿ゲームクリエイトホームページ
 ===
 
-##説明
+## 説明
 ゲームクリエイトのホームページを作成するリポジトリです
 
-##使用しているもの
+## 使用しているもの
 [Bootstrapテーマ Honoka][Honoka]
 
-##Url
+## Url
 http://innovagamecreate.github.io/
 
 
