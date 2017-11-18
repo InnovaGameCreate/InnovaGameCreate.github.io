@@ -5,38 +5,44 @@
 <url>
   <loc>https://innovagamecreate.github.io/</loc>
   <priority>1.0</priority>
-  <lastmod>2016-12-30T20:41:43+09:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-11-19T00:28:40+09:00</lastmod>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>https://innovagamecreate.github.io/overview.html</loc>
   <priority>0.8</priority>
-  <lastmod>2016-12-30T20:41:43+09:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-11-19T00:28:40+09:00</lastmod>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>https://innovagamecreate.github.io/report.html</loc>
   <priority>0.8</priority>
-  <lastmod>2016-12-30T20:41:43+09:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-11-19T00:28:40+09:00</lastmod>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>https://innovagamecreate.github.io/production/2016/2016.html</loc>
   <priority>0.8</priority>
-  <lastmod>2016-12-30T20:41:43+09:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-11-19T00:28:40+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://innovagamecreate.github.io/production/2017/2017.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2017-11-19T00:28:40+09:00</lastmod>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>https://innovagamecreate.github.io/welcome.html</loc>
   <priority>0.8</priority>
-  <lastmod>2016-12-30T20:41:43+09:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-11-19T00:28:40+09:00</lastmod>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>https://innovagamecreate.github.io/contact.html</loc>
   <priority>0.8</priority>
-  <lastmod>2016-12-30T20:41:43+09:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-11-19T00:28:40+09:00</lastmod>
+  <changefreq>monthly</changefreq>
 </url>
 
 </urlset>
